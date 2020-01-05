@@ -44,16 +44,16 @@ Once one or more models have been built that appear to have high quality based o
 #### 6.Deployment
 Generally this will mean deploying a code representation of the model into an operating system to score or categorize new unseen data as it arises and to create a mechanism for the use of that new information in the solution of the original business problem.  Importantly, the code representation must also include all the data prep steps leading up to modeling so that the model will treat new raw data in the same manner as during model development.
 
-## Notebooks
+# Notebooks
 
 There are 3 notebooks for this project. Since data is too large I chuncked the project into small pieces. Saved processed data, tokens, vectors and models regularly. 
 
-- Loading and Pre-processing 
+- **Loading and Pre-processing** 
 
   [load_preprocess_data.ipynb](https://github.com/fcamuz/sentiment-analysis-with-deep-learning/blob/master/load_preprocess_data.ipynb)
    consists of functions and code to read the data, remove punctuations,  remove stopwords, lemmatize, tokenize and vectorize. There is also section for EDA. 
 
-   CHRISP-DM phases¶
+
 
     Data Understanding and Data Preperation phases for CRISP-DM can be found in this noteboook.
 
@@ -66,11 +66,11 @@ There are 3 notebooks for this project. Since data is too large I chuncked the p
   - 6.Exploratory Data Analysis (EDA)
 
   
-- Modelling (Modeling and Evaluation)
+- **Modelling and Evaluation**
 
   [model.ipynb](https://github.com/fcamuz/sentiment-analysis-with-deep-learning/blob/master/model.ipynb) has all base models train and test results. Tuning for best performing model is also available in this notebook.   
 
-  CHRISP-DM phases¶
+
 
     Modelling and Evaluation phases for CRISP-DM can be found in this noteboook.
     
@@ -80,12 +80,11 @@ There are 3 notebooks for this project. Since data is too large I chuncked the p
   - 3.Modeling With Neural Networks
   - 4.Tuning the Best Model
   
-- Prediction (Deployment)
+- **Prediction**
   
   [prediction.ipynb ](https://github.com/fcamuz/sentiment-analysis-with-deep-learning/blob/master/prediction.ipynb) 
    consists the pipeline structure for scraping unseen data from Amazon website, pre-processing comments and predicting the labels. 
 
-   CHRISP-DM phase
 
     Deployment phase for CRISP-DM can be found in this noteboook.
     
