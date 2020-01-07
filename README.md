@@ -1,7 +1,8 @@
 
 # Sentiment Analysis with Deep Learning
 
-### A machine learning model that can provide insights by automatically analyzing product reviews and separating them into tags: Positive, Negative.
+### A machine learning model that can provide insights by automatically analyzing product reviews and separating them into tags: Positive, Negative with 91% Accuracy
+
 
 Customer Experience (CX) is the key to business success. In fact, 81% of marketers interviewed by Gartner said they expected their companies to compete mostly on the basis of CX in two years time, making CX the new marketing battlefront. Now, more than ever, it’s key for companies to pay close attention to Voice of Customer (VoC) to improve the customer experience. By analyzing and getting insights from customer feedback, companies have better information to make strategic decisions, an accurate understanding of what the customer actually wants and, as a result, a better experience for everyone.
 
@@ -96,7 +97,9 @@ There are 3 notebooks for this project. Since data is too large I chuncked the p
     - 5.Prediction
 
 
+```python
 
+```
   
 
 
