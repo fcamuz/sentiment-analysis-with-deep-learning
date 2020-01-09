@@ -26,7 +26,7 @@ https://www.kaggle.com/bittlingmayer/amazonreviews
 ### Methodology:
 CRISP-DM (Cross Industry Standard Process for Data Mining)
 
-![methodology](https://raw.githubusercontent.com/fcamuz/sentiment-analysis-with-deep-learning/master/images/chrisp-dm.png)
+![methodology](https://raw.githubusercontent.com/fcamuz/sentiment-analysis-with-deep-learning/master/images/CRISPDM_Process_Diagram)
 The process or methodology of CRISP-DM is described in these six major steps
 
 
@@ -87,7 +87,7 @@ The results for word distributions on negative and positive comments are below. 
 
 The averahe total numbers of words in comments from each category is below. The difference is small but worth to pay attantion. 
 
-![sentiment](https://raw.githubusercontent.com/fcamuz/sentiment-analysis-with-deep-learning/master/images/Slide8.png)
+![sentiment](https://raw.githubusercontent.com/fcamuz/sentiment-analysis-with-deep-learning/master/images/Slide9.png)
 
 
 - **Modelling and Evaluation**
@@ -341,6 +341,7 @@ def web_comments ():
 ```
 
 ![sentiment](https://raw.githubusercontent.com/fcamuz/sentiment-analysis-with-deep-learning/master/images/Slide12.png)
+
 
 To try the model prediction on a product data on Amazon website, run the web-comments function. It will ask you to input any amazon product page url. Just copy and paste the url and press ENTER
 
