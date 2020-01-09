@@ -26,7 +26,7 @@ https://www.kaggle.com/bittlingmayer/amazonreviews
 ### Methodology:
 CRISP-DM (Cross Industry Standard Process for Data Mining)
 
-![methodology](https://raw.githubusercontent.com/fcamuz/sentiment-analysis-with-deep-learning/master/images/CRISPDM_Process_Diagram)
+![methodology](https://raw.githubusercontent.com/fcamuz/sentiment-analysis-with-deep-learning/master/images/CRISPDM_Process_Diagram.png)
 The process or methodology of CRISP-DM is described in these six major steps
 
 
