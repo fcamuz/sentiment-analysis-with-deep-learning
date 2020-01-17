@@ -30,8 +30,6 @@ CRISP-DM (Cross Industry Standard Process for Data Mining)
 
 The process or methodology of CRISP-DM is described in these six major steps
 
-
-
 #### 1.Business Understanding
 Focuses on understanding the project objectives and requirements from a business perspective, and then converting this knowledge into a data mining problem definition and a preliminary plan.
 
@@ -51,10 +49,16 @@ Once one or more models have been built that appear to have high quality based o
 Generally this will mean deploying a code representation of the model into an operating system to score or categorize new unseen data as it arises and to create a mechanism for the use of that new information in the solution of the original business problem.  Importantly, the code representation must also include all the data prep steps leading up to modeling so that the model will treat new raw data in the same manner as during model development.
 
 
+# Presentation
+
+[Project presentation video](https://www.youtube.com/watch?v=RYAQmwW7bWA)
+
+# Live Demonstration
+
+[Live demonstration video](https://www.youtube.com/watch?v=GQvGNL4_c84)
+
 # Notebooks
-
 There are 3 notebooks for this project. I chuncked the project into 3 small pieces. Saved processed data, tokens, vectors and models with pickles to use in the following notebooks. 
-
 
 
 - **Reading, Pre-processing and EDA** 
