@@ -1,6 +1,7 @@
 
 # Sentiment Analysis with Deep Learning
 
+
 ![sentiment](https://raw.githubusercontent.com/fcamuz/sentiment-analysis-with-deep-learning/master/images/Slide1.png)
 
 ### A machine learning model that can provide insights by automatically analyzing product reviews and separating them into tags: Positive, Negative with 91% Accuracy
@@ -244,7 +245,6 @@ The model has **91% Accuracy** on test set.
     - 4.Pre-processing the New Data
     - 5.Prediction
 
-
 I have used urllibmodule and BeatifulSoup library to scrape data from Amazon product webpage. Then I also pre-processed the new text to pass to the model for prediction.
 
 ```python
@@ -324,8 +324,7 @@ def web_comments ():
         
     for i in label:
         if i==0:
-            neg_com.append(review_list[i])
-            
+            neg_com.append(review_list[i])           
             
     for i in label:
         if i==1:
@@ -352,7 +351,6 @@ To try the model prediction on a product data on Amazon website, run the web-com
 
 
 ![sentiment](https://raw.githubusercontent.com/fcamuz/sentiment-analysis-with-deep-learning/master/images/Slide13.png)
-
 
 
 
